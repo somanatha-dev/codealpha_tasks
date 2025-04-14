@@ -23,7 +23,7 @@ html, body{
     position: relative;
     flex-wrap: wrap;
     font-family: Montserrat;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.482), #030303), url(black-new.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.482), #030303), url(images/black-new.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -886,7 +886,7 @@ html, body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: url(maps.jpg);
+    background: url(images/maps.jpg);
     background-position: center;
     background-size: cover;
     color: rgb(255, 255, 255);
@@ -1482,6 +1482,3 @@ html, body{
     font-size: 0.9rem;
     font-weight: 700;
   }
-
-  /*-------------------bg color--------------------------*/
-

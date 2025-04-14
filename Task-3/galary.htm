@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>RESPONSIVE FILTERABLE IMAGE GALLERY</h1>
+    <div class="buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="bag">Bag</button>
+        <button class="filter-btn" data-filter="headphone">Headphone</button>
+        <button class="filter-btn" data-filter="camera">Camera</button>
+        <button class="filter-btn" data-filter="shoe">Shoe</button>
+        <button class="filter-btn" data-filter="watch">Watch</button>
+    </div>
+    
+    <div class="gallery">
+        <div class="image-item bag"><img src="bag-1.webp" alt="Bag"></div>
+        <div class="image-item headphone"><img src="headphone-1.webp" alt="Headphone"></div>
+        <div class="image-item camera"><img src="camera-1.webp" alt="Camera"></div>
+        <div class="image-item shoe"><img src="shoe-1.webp" alt="Shoe"></div>
+        <div class="image-item watch"><img src="watch-1.jpg" alt="Watch"></div>
+        <div class="image-item camera"><img src="camera-2.jpeg" alt="Camera"></div>
+        <div class="image-item shoe"><img src="shoe-2.jpeg" alt="Shoe"></div>
+        <div class="image-item watch"><img src="watch-2.jpeg" alt="Watch"></div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" src="">
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
